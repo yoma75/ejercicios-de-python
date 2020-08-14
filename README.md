@@ -1,4 +1,4 @@
-# ejercicios-de-python
+# Ejercicios-de-python
 Ejercicios en python 3.8
 
 Incluye:
