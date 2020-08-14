@@ -11,3 +11,5 @@ for i in phrase.split():
         print(dictionary[i], end=' ')
     else:
         print(i, end=' ')
+
+# aun no funciona correctamente
