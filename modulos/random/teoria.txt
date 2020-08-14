@@ -1,0 +1,10 @@
+* La función randint() devuelve un número entero incluido entre los valores indicados. Los valores de los límites inferior y superior también pueden aparecer entre los valores devueltos.
+
+* La función choice() se utiliza para seleccionar elementos al azar de una lista.
+
+* La función shuffle() 'mezcla' o cambia aleatoriamente el orden de los elementos de una lista antes de realizar la selección de alguno de ellos. Esta mezcla recuerda en el caso de los juegos de cartas la acción de barajar un número de veces antes de repartir o seleccionar cartas.
+
+* La función sample() devuelve de una lista de elementos un determinado número de elementos diferentes elegidos al azar.
+
+
+
