@@ -12,3 +12,4 @@ Incluye:
 -Strings
 -Tuplas
 -Numeros
+-Entre otros
