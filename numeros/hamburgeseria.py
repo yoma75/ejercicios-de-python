@@ -1,4 +1,4 @@
-
+# Facturacion en la compra de productos: 
 
 HAMB_POLLO = 5500
 HAMB_CARNE = 7400
@@ -60,24 +60,29 @@ valor_neto = total_hamburguesa_pollo + total_hamburguesa_carne + total_hamburges
 con_iva = valor_neto * IVA
 total_pagar = valor_neto + con_iva
 
-print('\nUsted compro lo siguiente:')
-print(f'{acumulador_hpollo} Hamburguesas de pollo a $ 5500 c/u = {total_hamburguesa_pollo}')
-print(f'{acumulador_hcarne} Hamburguesas de carne a $ 7400 c/u = {total_hamburguesa_carne}')
-print(f'{acumulador_hpescado} Hamburguesas de pescado a $ 6000 c/u = {total_hamburgesa_pescado}')
-print(f'{acumulador_gaseosa} Gaseosas a $ 2200 c/u = {total_gaseosa}')
+if(valor_neto >= 2200):
+    print('\n--- Usted compro lo siguiente: ---')
+    print('************************************')
+    if(acumulador_hpollo >= 1):
+        print(f'{acumulador_hpollo} Hamburguesas de pollo a $ 5500 c/u = {total_hamburguesa_pollo}')
 
-print(f'\nSubtotal: $ {valor_neto}')
-print(f'IVA: $ {con_iva}')
-print(f'Total a pagar: $ {total_pagar}'.upper())
+    if(acumulador_hcarne >= 1):    
+        print(f'{acumulador_hcarne} Hamburguesas de carne a $ 7400 c/u = {total_hamburguesa_carne}')
 
-paga = int(input('\nCancela con: $ '))
-cambio = paga - total_pagar
+    if(acumulador_hpescado >= 1):
+        print(f'{acumulador_hpescado} Hamburguesas de pescado a $ 6000 c/u = {total_hamburgesa_pescado}')
 
-print(f'Su cambio es: $ {cambio}')
+    if(acumulador_gaseosa >= 1):
+        print(f'{acumulador_gaseosa} Gaseosas a $ 2200 c/u = {total_gaseosa}')
 
+    print(f'\nSubtotal: $ {valor_neto}')
+    print(f'IVA: $ {con_iva}')
+    print(f'Total a pagar: $ {total_pagar}'.upper())
 
+    paga = int(input('\nCancela con efectivo: $ '))
+    cambio = paga - total_pagar
 
+    print(f'Su cambio es: $ {cambio}')
 
-
-
-
+else:
+    print('No escogio ninguna opción')
