@@ -11,6 +11,10 @@ acumulador_hpollo = 0
 acumulador_hcarne = 0
 acumulador_hpescado = 0
 acumulador_gaseosa = 0
+total_gaseosa = 0
+total_hamburguesa_pollo = 0
+total_hamburguesa_carne = 0
+total_hamburgesa_pescado = 0
 
 while(menu != 5):
 
@@ -45,9 +49,8 @@ while(menu != 5):
 
     elif opcion == 4:
         cantidad_gaseosa = int(input('Cuantas gaseosas desea: '))
-        if cantidad_gaseosa == 0 or cantidad_gaseosa != 9999:
-            total_gaseosa = GASEOSA * cantidad_gaseosa
-            acumulador_gaseosa += cantidad_gaseosa
+        total_gaseosa = GASEOSA * cantidad_gaseosa
+        acumulador_gaseosa += cantidad_gaseosa
 
     else:
         print('GRACIAS POR SU COMPRA')
