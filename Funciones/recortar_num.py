@@ -12,10 +12,10 @@ def recortar(numero, minimo, maximo):
         return maximo
     return numero
 
-print('El numero recortado es: {}'.format(recortar(15, 0, 10)))
-print('El numero recortado es: {}'.format(recortar(34, 3, 6)))
-print('El numero recortado es: {}'.format(recortar(56, 12, 30)))
-print('El numero recortado es: {}'.format(recortar(5, 20, 65)))
+print('\nEl número recortado es: {}'.format(recortar(15, 0, 10)))
+print('El número recortado es: {}'.format(recortar(34, 3, 6)))
+print('El número recortado es: {}'.format(recortar(56, 12, 30)))
+print('El número recortado es: {}'.format(recortar(5, 20, 65)))
 
 
 

@@ -9,6 +9,6 @@ def numeros(a,b):
     else:
         return a + b
 
-print('Los numeros son iguales se restan: {}'.format(numeros(23,23)))
-print('Los numeros son diferentes se suman: {}'.format(numeros(45,67)))
+print('\nLos números son iguales se restan: {}'.format(numeros(23,23)))
+print('Los números son diferentes se suman: {}'.format(numeros(45,67)))
 

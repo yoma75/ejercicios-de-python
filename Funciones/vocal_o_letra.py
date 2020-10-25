@@ -6,5 +6,5 @@ def es_vocal(x):
     else:
         print(f'{x} es una letra')
 
-es_vocal('a')
+es_vocal('\na')
 es_vocal('h')

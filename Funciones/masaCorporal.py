@@ -3,7 +3,7 @@
 def imc(estatura, peso):
     return peso / estatura**2
 
-peso = float(input('Escribe tu peso corporal: '))
+peso = float(input('\nEscribe tu peso corporal: '))
 estatura = float(input('Escribe tu estatura: '))
 
 indice = imc(estatura,peso)
