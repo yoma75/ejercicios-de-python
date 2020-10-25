@@ -9,4 +9,4 @@ for asignatura, creditos in curso.items():
     print(f'{asignatura} tiene: {creditos} creditos')
     total_creditos += creditos
 
-print(f'Numero total de creditos del curso: {total_creditos}')
+print(f'\nTotal de creditos del curso: {total_creditos}')

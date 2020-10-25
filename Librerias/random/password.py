@@ -25,7 +25,7 @@ def generar_contrasena():
 
 def run():
     contrasena = generar_contrasena()
-    print('Tu nueva contraseña es: ' + contrasena)
+    print('\nTu nueva contraseña es: '.upper() + contrasena)
 
 
 if __name__ == '__main__':

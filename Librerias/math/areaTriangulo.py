@@ -9,20 +9,19 @@ altura = None
 while True:
     try:
         print()
-        base = float(input('Escriba la base del triangulo: '.upper()))
+        base = float(input('Escriba la base del triángulo: '.upper()))
         break;
     except:
         print('Debe escribir un numero')
 
 while True:
     try:
-        altura = float(input('Escriba la altura del triangulo: '.upper()))
+        altura = float(input('Escriba la altura del triángulo: '.upper()))
         break;
     except:
-        print('Debe escribir un numero')
+        print('Debe escribir un número')
 
 print()
 area = base * altura / 2
 
-print(f'El area del triangulo es de: {area}')
-
+print(f'El área del triángulo es de: {area}')

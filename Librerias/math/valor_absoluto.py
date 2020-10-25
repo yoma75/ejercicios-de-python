@@ -2,10 +2,9 @@
 # Si es positivo queda positivo y si es negativo queda positivo
 
 import math
-print('---------- valor absoluto de un numero ----------'.upper())
-print('')
+print('\n---------- valor absoluto de un numero ----------'.upper())
 
-numero = int(input('Escriba un numero positivo o negativo: '))
+numero = int(input('\nEscriba un número positivo o negativo: '))
 
 y = math.fabs(numero)
 print(y)

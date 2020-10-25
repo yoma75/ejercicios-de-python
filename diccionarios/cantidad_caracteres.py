@@ -4,7 +4,7 @@ contadores = {}
 
 # 3 veces me pide el input
 for i in range(3):
-    cadena = input('Cadena de caracteres: ')
+    cadena = input('Cadena de carácteres: ')
     for caracter in cadena:
         if caracter not in contadores.keys():
             #           clave 

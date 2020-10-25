@@ -11,7 +11,7 @@ carrito_compra = {}
 masArticulos = 's'
 
 while masArticulos == 's':
-    articulo = input('Introduce el articulo: ')
+    articulo = input('\nIntroduce el articulo: ')
     precio = float(input('Digite el precio de '+ articulo + ': '))
     carrito_compra[articulo]= precio
     print()

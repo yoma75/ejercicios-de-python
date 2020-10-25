@@ -4,7 +4,7 @@ persona = {}
 informacion = 's'
 
 while informacion == 's':
-    key = input('Que dato deseas introducir: ')
+    key = input('\nQue dato deseas introducir: ')
 
     value = input(key + ': ')
     persona[key] = value

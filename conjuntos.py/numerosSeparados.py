@@ -1,8 +1,6 @@
 # Obtener un Conjunto de Números Seperados por Coma y Crear una Lista:
 
-print()
-
-entrada = input('Escriba varios numeros separados por una coma: '.upper())
+entrada = input('\nEscriba varios numeros separados por una coma: '.upper())
 print(type(entrada))
 print('-------------------------------------------------------------')
 

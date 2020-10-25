@@ -12,7 +12,7 @@
 def run():
     frutas = {'platano':1350, 'manzana':800, 'pera':850, 'naranja':700}
 
-    frutica = input('Que fruta desea: '.upper())
+    frutica = input('\nQue fruta desea: '.upper())
     libras = float(input('Cuantas libras: '))
 
     if frutica in frutas:
