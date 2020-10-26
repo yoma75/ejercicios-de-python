@@ -57,8 +57,8 @@ while(menu != 5):
         break
 
 valor_neto = total_hamburguesa_pollo + total_hamburguesa_carne + total_hamburgesa_pescado + total_gaseosa
-con_iva = valor_neto * IVA
-total_pagar = valor_neto + con_iva
+con_iva = round(valor_neto * IVA)
+total_pagar = round(valor_neto + con_iva)
 
 if(valor_neto >= 2200):
     print('\n--- Usted compro lo siguiente: ---')
@@ -82,7 +82,7 @@ if(valor_neto >= 2200):
     paga = int(input('\nCancela con efectivo: $ '))
     cambio = paga - total_pagar
 
-    print(f'Su cambio es: $ {cambio}')
+    print(f'Su cambio es: $ {round(cambio)}')
 
 else:
     print('No escogio ninguna opción')
