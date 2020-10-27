@@ -1,4 +1,5 @@
 # Facturacion en la compra de productos: 
+import math
 
 HAMB_POLLO = 5500
 HAMB_CARNE = 7400
@@ -57,8 +58,8 @@ while(menu != 5):
         break
 
 valor_neto = total_hamburguesa_pollo + total_hamburguesa_carne + total_hamburgesa_pescado + total_gaseosa
-con_iva = round(valor_neto * IVA)
-total_pagar = round(valor_neto + con_iva)
+con_iva = (valor_neto * IVA) # .ceil redondea hacia arriba
+total_pagar = math.ceil(valor_neto + con_iva)
 
 if(valor_neto >= 2200):
     print('\n--- Usted compro lo siguiente: ---')

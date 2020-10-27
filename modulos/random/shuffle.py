@@ -1,4 +1,4 @@
-# se realizan dos 'mezclas' antes de que se obtenga el elemento.
+# se realizan dos 'mezclas' shuffle() antes de que se obtenga el elemento.
 
 import random
 

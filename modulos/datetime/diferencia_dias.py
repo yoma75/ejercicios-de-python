@@ -1,14 +1,17 @@
-# Calcular la Diferencia en Días de Dos Fechas Dadas
+# Calcular la diferencia en días de dos Fechas dadas
 
 from datetime import date
 
-# date: guarda elemento tipo fecha
-hoy = date(2020, 6, 2)
-otra_fecha = date(2023, 2, 13)
+def diferenciaDias(year, month, days):
+    # date: guarda elemento tipo fecha
+    today = date(year, month, days)
+    otra_fecha = date(2050, 2, 13)
 
-diferencia = otra_fecha - hoy
+    diferencia = otra_fecha - today
+    return print(f'\nLa diferencia es de: {diferencia.days} dias'.upper())
+    # .days: (atributo) solo me muestra los dias
 
-# .days: (atributo) solo me muestra los dias
-print()
-print(f'La diferencia es de: {diferencia.days} dias'.upper())
+diferenciaDias(2019, 12, 30)
+diferenciaDias(2045, 9, 19)
+diferenciaDias(2020, 10, 26)
 
