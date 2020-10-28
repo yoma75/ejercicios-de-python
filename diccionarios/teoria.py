@@ -16,10 +16,18 @@ print(len(animalitos))
 
 # método values: retorna los valores como una lista
 valores = list(animalitos.values())
-print(valores)
+print(f'Valores: {valores}')
 
 # Metodo keys: retorna las llaves
 valores = list(animalitos.keys())
-print(valores)
+print(f'Keys: {valores}')
+
+# Eliminar dato 
+del(animalitos['zancudo'])
+print(f'Eliminar zancudo: {animalitos}')
+
+# Modificar valor
+animalitos['jirafa'] = 'muy alta'
+print(animalitos)
 
 
