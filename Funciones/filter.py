@@ -16,7 +16,7 @@ filtro = filter(positivo, numeros)
 
 # Convertirlo a una lista
 resultado = list(filtro)
-print(resultado)
+print(f'Los numeros positivos son: {resultado}')
 
 
 

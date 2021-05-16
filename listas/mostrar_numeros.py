@@ -32,7 +32,7 @@ print()
 if numero == 0:
     lista_numeros.pop()
 
-print(f'Los numeros digitados de atras para delante son: {lista_numeros[::-1]}')
+print(f'Los numeros digitados de atrás para delante son: {lista_numeros[::-1]}')
 
 
 
