@@ -7,7 +7,7 @@ Bienvenido al conversor de monedas
 2 - Pesos Argentinos
 3 - Pesos Mexicanos
 
-Elige una opcion:  """
+Elige una opción:  """
 
 opcion = int(input(menu))
 
