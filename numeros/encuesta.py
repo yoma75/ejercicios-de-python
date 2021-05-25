@@ -4,11 +4,6 @@
 # Mostrar las respuestas que cada uno de los pacientes
 
 
-# encuesta:
-# opciones: 5. Excelente, 4. Muy buena, 3. Buena, 2. Regular, 1. No satisfactoria
-# Realice un programa que registre en un arreglo la evaluación de pacientes atendidos
-# Mostrar las respuestas que cada uno de los pacientes
-
 import numpy as np
 
 valor_guardado = []
