@@ -11,8 +11,7 @@ numero = int(input('Digite un numero entero: '))
 print()
 print('1. Determinar si es positivo o negativo')
 print('2. Determinar si es par o impar')
-opc = int(input('Escoja la opcion: '))
-print('')
+opc = int(input(f'Escoja la opcion: \n'))
 
 if opc == 1:
     if numero >= 0:

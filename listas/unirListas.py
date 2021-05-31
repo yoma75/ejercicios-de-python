@@ -1,11 +1,12 @@
 # Concatenar dos listas
 
-animales = ['oso', 'tigre', 'tiburon']
-colores = ['negro', 'amarillo', 'azul']
+animals = ['bear', 'tiger', 'shark']
+colors = ['black', 'yellow', 'blue']
 
-animales.extend(colores)
-print(f'\n{animales}')
-print(f'{len(animales)} elementos')
+animals.extend(colors)
+print(f'\n{animals}')  # ['bear', 'tiger', 'shark', 'black', 'yellow', 'blue']
+print(f'{len(animals)} elementos')  # 6 elementos
 
 # obtener el ultimo elemento
-print(animales[-1])
+print(animals[-1])  # blue
+

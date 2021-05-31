@@ -9,14 +9,14 @@ cont = 0
 conectado = bool;
 while cont < 3:
     us = input("ingrese rut: ");
-    co = input("ingrese contreaseña: ");
+    co = input("ingrese contraseña: ");
     if us == usuario and passw == co:
         print ("Bienvenido al sistema")
         conectado = True
         break
     else:
         cont = cont + 1;
-        print ("Usuario y contraseña incorreta")
+        print ("Usuario y contraseña incorrecta")
         conectado = False
 
 while conectado == True:

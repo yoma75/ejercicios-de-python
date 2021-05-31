@@ -1,10 +1,10 @@
 animalitos = {
-    'leon':'salvaje',
+    'león':'salvaje',
     'rana':'anfibio',
-    'jirafa':'hervivora',
+    'jirafa':'herbívora',
     'perro':'domestico',
     'zancudo':'insecto',
-    'calamar':'crustaceo'
+    'calamar':'crustáceo'
 }
 
 # Encontrar el value de una determinada key
@@ -18,7 +18,7 @@ print(len(animalitos))
 valores = list(animalitos.values())
 print(f'Valores: {valores}')
 
-# Metodo keys: retorna las llaves
+# Método keys: retorna las llaves
 valores = list(animalitos.keys())
 print(f'Keys: {valores}')
 

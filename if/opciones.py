@@ -42,4 +42,3 @@ elif opc == 2:
         print(f'{nombre} tiene: {respuesta} años y es mayor de edad')
     else:
         print(f'{nombre} tiene: {respuesta} años y es menor de edad')
-

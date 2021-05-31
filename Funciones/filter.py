@@ -6,8 +6,8 @@ def positivo(numero):
   else:
     return False
 
-print(positivo(5))
-print(positivo(-3))
+print(positivo(5))  # True
+print(positivo(-3))  # False
 
 
 # Listar numeros positivos
@@ -16,7 +16,5 @@ filtro = filter(positivo, numeros)
 
 # Convertirlo a una lista
 resultado = list(filtro)
-print(f'Los numeros positivos son: {resultado}')
-
-
+print(f'Los numeros positivos son: {resultado}')  # [24, 12, 68, 57]
 

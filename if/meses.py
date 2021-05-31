@@ -15,7 +15,7 @@ if mes == 'febrero':
     print(f'El mes de {mes} tiene 28 dias')
 elif mes=='enero' or mes=='marzo' or mes=='mayo' or mes=='julio' or mes=='octubre' or mes=='agosto' or mes=='diciembre':
     print(f'El mes de {mes} tiene 31 dias')
-elif mes=='abril' or mes=='jumio' or mes=='septiembre' or mes=='noviembre':
+elif mes=='abril' or mes=='junio' or mes=='septiembre' or mes=='noviembre':
     print(f'El mes de {mes} tiene 30 dias')
 else:
     print('Este mes no existe')

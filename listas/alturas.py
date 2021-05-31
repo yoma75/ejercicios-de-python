@@ -7,7 +7,7 @@ altura_estudiante = list([])
 i, suma_de_estaturas = 0, 0
 
 while i < 5:
-    estudiante = int(input('Digite su su estatura: '))
+    estudiante = int(input('Digite su estatura: '))
     altura_estudiante.append(estudiante)
     i = i+1
 
@@ -23,6 +23,4 @@ elif promedio >= 141 and promedio <= 170:
     print('Estudiantes de estatura normal')
 else:
     print('Estudiantes muy altos')
-
-
 

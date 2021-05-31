@@ -8,19 +8,23 @@
 # 5. Realizarla división 
 # 6. Salir del programa
 
-i = 0
+opc = 0
 
-print('')
-print(' calculadora '.center(42, '-').upper())
-print('')
-print('1. Ingresar 2 numeros')
-print('2. Suma')
-print('3. Resta')
-print('4. Multiplicacion')
-print('5. Division')
-print('6. Salir del programa')
-print('')
-opc = int(input('Escoja la opcion: '))
+while opc != 5:
+  menu = '''
+    1. Sumar
+    2. Restar
+    3. Multiplicar
+    4. Dividir
+    5. Salir
+
+    Choose option:
+  '''
+opc = int(input(menu))
+
+
+
+
 
 
 

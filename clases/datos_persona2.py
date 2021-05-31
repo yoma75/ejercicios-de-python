@@ -1,5 +1,5 @@
 # Crear una Clase para Representar los Datos de una Persona
-# Este es el metodo mas corto para crear la clase del ejemplo anterior referente a persona
+# Este es el método mas corto para crear la clase del ejemplo anterior referente a persona
 
 from dataclasses import dataclass
 

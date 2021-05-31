@@ -13,11 +13,10 @@ print('1. VEGETARIANA: pimiento, tofu, mozzarella y tomate'.center(70))
 print('2. NO VEGETARIANA: peperoni, jamon, salmon, mozzarella y tomate'.center(82))
 print('')
 
-pedido = int(input('Digite el numero de pizza que desea pedir: '))
-print('')
-if pedido == 1:
-    print('Usted eligio la pizza vegetariana')
-else:
-    print('Usted eligio la pizza NO vegetariana')
+pedido = int(input(f'Digite el numero de pizza que desea pedir: '))
 
+if pedido == 1:
+    print(f'Usted eligio la pizza vegetariana\n')
+else:
+    print(f'Usted eligio la pizza NO vegetariana\n')
 

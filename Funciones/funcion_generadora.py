@@ -7,7 +7,7 @@ def pares(maximo):
     if(numero % 2 == 0):
       yield numero
 
-maximo = int(input('Digite un numerito:'))
+maximo = int(input('Digite un numerito: '))
 for numero in pares(maximo):
   print(numero)
 

@@ -1,4 +1,4 @@
-# Partidos de futbol, 6 equipos
+# Partidos de fútbol, 6 equipos
 
 # 1. America
 # 2. Millonarios
@@ -25,7 +25,7 @@ lista_millos.append(millos)
 print()
 
 if america == millos:
-    print('Definicion por penaltis')
+    print('Definición por penaltis')
     p_america = int(input('America: '))    
     lista_america.append(p_america)
     suma_america = (lista_america[0]+lista_america[1])
@@ -41,7 +41,7 @@ else:
 
 # -----------------------------------------------------------------------------------
 print()
-print('________ Atletico Bucaramanga Vs Junior ________'.upper())
+print('________ Atlético Bucaramanga Vs Junior ________'.upper())
 bucaros = int(input('Atletico Bucaramanga: '))
 lista_bucaros.append(bucaros)
 junior = int(input('Junior: '))

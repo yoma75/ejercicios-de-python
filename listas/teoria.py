@@ -6,9 +6,5 @@ print(f'\n{random.choice(miles)}')
 
 # Modificar un elemento
 miles[3] = 4
-print(miles)
-
-
-
-
+print(miles)  # [2345, 8723, 9567, 4, 4095]
 

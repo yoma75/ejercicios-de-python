@@ -3,14 +3,14 @@
 
 INTERESES = 0.04
 
-dinero = int(input('Digite la cantidad de dinero a depositar: '))
+money = int(input('Enter the amount of money to deposit: '))
 
-first_year = dinero * (1 + INTERESES)
+first_year = money * (1 + INTERESES)
 second_year = round(first_year * (1 + INTERESES))
 third_year = round(second_year * (1 + INTERESES))
-tota_ahorrado = round(dinero + first_year + second_year + third_year)
+tota_ahorrado = round(money + first_year + second_year + third_year)
 
-print('El primer año de ahorro fue de: {}'.format(first_year))
-print('El segundo año de ahorro fue de: {}'.format(second_year))
-print('El tercer año de ahorro fue de: {}'.format(third_year))
-print('El dinero total durante los tres años fue de: $ {}'.format(tota_ahorrado))
+print('First year of savings: {}'.format(first_year))
+print('Second year of savings: {}'.format(second_year))
+print('Third year of savings: {}'.format(third_year))
+print('Total savings of the three years: $ {}'.format(tota_ahorrado))

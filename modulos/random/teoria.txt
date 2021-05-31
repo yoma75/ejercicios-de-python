@@ -6,5 +6,3 @@
 
 * La función sample() devuelve de una lista de elementos un determinado número de elementos diferentes elegidos al azar.
 
-
-

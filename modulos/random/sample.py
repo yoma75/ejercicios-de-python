@@ -2,6 +2,5 @@
 
 import random
 
-numeritos = [345, 568, 864, 808, 69]
-print(f'\n{random.sample(numeritos, 3)}')
-
+numbers = [345, 568, 864, 808, 69]
+print(f'\n{random.sample(numbers, 3)}')

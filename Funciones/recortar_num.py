@@ -1,4 +1,4 @@
-# Realiza una función llamada recortar(numero, minimo, maximo) que reciba tres parámetros. El primero es el número a recortar, el segundo es el límite inferior y el tercero el límite superior. La función tendrá que cumplir lo siguiente:
+# Realiza una función llamada recortar(numero, mínimo, maximo) que reciba tres parámetros. El primero es el número a recortar, el segundo es el límite inferior y el tercero el límite superior. La función tendrá que cumplir lo siguiente:
 
 # Devolver el límite inferior si el número es menor que éste
 # Devolver el límite superior si el número es mayor que éste.
@@ -12,10 +12,10 @@ def recortar(numero, minimo, maximo):
         return maximo
     return numero
 
-print('\nEl número recortado es: {}'.format(recortar(15, 0, 10)))
-print('El número recortado es: {}'.format(recortar(34, 3, 6)))
-print('El número recortado es: {}'.format(recortar(56, 12, 30)))
-print('El número recortado es: {}'.format(recortar(5, 20, 65)))
+print('\nEl número recortado es: {}'.format(recortar(15, 0, 10)))   # 10
+print('El número recortado es: {}'.format(recortar(34, 3, 6)))      # 6
+print('El número recortado es: {}'.format(recortar(56, 12, 30)))    # 30
+print('El número recortado es: {}'.format(recortar(5, 20, 65)))     # 20
 
 
 

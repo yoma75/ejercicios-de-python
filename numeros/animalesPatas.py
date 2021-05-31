@@ -8,10 +8,11 @@ El granjero ha contado sus animales y te da un subtotal para cada especie. Tiene
 
 animals(2, 3, 5) ➞ 36'''
 
-def animalitos(ch, c, p):
-    pollo, vaca, cerdo = 2, 4, 4
-    suma = ((ch * pollo) + (c * vaca) + (p * cerdo))
+def animals(ch, c, p):
+    chicken, cow, pig = 2, 4, 4
+    suma = ((ch * chicken) + (c * cow) + (p * pig))
     return print(f'\nTotal: {suma} patas')
 
-animalitos(2, 3, 5)
-animalitos(2, 2, 1)
+animals(2, 3, 5)  # Total: 36 patas
+animals(2, 2, 1)  # Total: 16 patas
+

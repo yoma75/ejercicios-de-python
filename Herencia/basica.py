@@ -17,9 +17,8 @@ class Estudiante(Persona):
             self.carrera = carrera
     
 fredy = Estudiante('43567867', 'Fredy', 'micorreo@yahoo.es', '0345', 'Ingeniero')
-print(isinstance(fredy, Estudiante))
-print(isinstance(fredy, Persona))
+print(isinstance(fredy, Estudiante))  # True
+print(isinstance(fredy, Persona))  # True
 
 #  isinstance(objeto, nombre de la clase) Devuelve si un objeto es una instancia de una clase o de una subclase de la misma.
-
 

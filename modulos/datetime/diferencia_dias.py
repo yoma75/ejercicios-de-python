@@ -11,7 +11,6 @@ def diferenciaDias(year, month, days):
     return print(f'\nLa diferencia es de: {diferencia.days} dias'.upper())
     # .days: (atributo) solo me muestra los dias
 
-diferenciaDias(2019, 12, 30)
-diferenciaDias(2045, 9, 19)
-diferenciaDias(2020, 10, 26)
-
+diferenciaDias(2019, 12, 30)  # LA DIFERENCIA ES DE: 11003 DIAS
+diferenciaDias(2045, 9, 19)   # LA DIFERENCIA ES DE: 1608 DIAS
+diferenciaDias(2020, 10, 26)  # LA DIFERENCIA ES DE: 10702 DIAS

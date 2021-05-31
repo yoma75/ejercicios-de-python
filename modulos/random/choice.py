@@ -2,6 +2,5 @@
 
 import random
 
-transporte = ['bicileta', 'moto', 'bus', 'avion', 'tren']
-print('\nHoy viajare en: ', random.choice(transporte))
-
+transport = ['bike', 'motorcycle', 'bus', 'plane', 'train']
+print('\nToday I will travel in:', random.choice(transport))

@@ -4,7 +4,7 @@ aceptable = 0.4
 meritorio = 0.6
 puntos = float(input("Introduce tu puntuación: "))
 
-# Clasifiación por niveles de rendimiento
+# Clasificación por niveles de rendimiento
 if puntos == inaceptable:
     nivel = "Inaceptable"
 elif puntos == aceptable:

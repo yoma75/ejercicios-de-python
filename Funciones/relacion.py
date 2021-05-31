@@ -1,4 +1,4 @@
-# Realiza una función llamada relacion(a, b) que a partir de dos números cumpla lo siguiente:
+# Realiza una función llamada relación(a, b) que a partir de dos números cumpla lo siguiente:
 
 # Si el primer número es mayor que el segundo, debe devolver 1.
 # Si el primer número es menor que el segundo, debe devolver -1.

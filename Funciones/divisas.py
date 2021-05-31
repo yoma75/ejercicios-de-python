@@ -13,7 +13,7 @@ opcion = int(input(menu))
 
 def conversion():
     pesos = float(input('Cuantos pesos tienes: '))
-    valor_dolar = 3875
+    valor_dolar = 3875  # 3875: valor dolar
     dolares = round(pesos / valor_dolar, 2)
     print(f'{pesos} pesos equivalen a {dolares} dolares')
 

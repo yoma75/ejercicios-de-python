@@ -1,7 +1,7 @@
 # Crear una Clase para Representar los Datos de una Persona
 
 class Persona:
-    def __init__(self, nombre, edad, correo): # Constructor o incializar clase
+    def __init__(self, nombre, edad, correo): # Constructor o inicializar clase
         self.nombre = nombre
         self.edad = edad
         self.correo = correo

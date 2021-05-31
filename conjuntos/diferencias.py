@@ -8,7 +8,7 @@ conjunto2 = set(colores_lista2)
 
 print()
 
-# Muestra los colores del conjunto1 que no estan presentes en el conjunto2
+# Muestra los colores del conjunto1 que no están presentes en el conjunto2
 diferencia = conjunto1.difference(conjunto2)
 print(diferencia) # {'Negro', 'Rojo'}
 

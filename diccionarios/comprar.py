@@ -12,7 +12,7 @@ masArticulos = 's'
 
 while masArticulos == 's':
     articulo = input('\nIntroduce el articulo: ')
-    precio = float(input('Digite el precio de '+ articulo + ': '))
+    precio = float(input(f'Digite el precio del {articulo}: '))
     carrito_compra[articulo]= precio
     print()
     masArticulos = input('Quieres añadir mas articulos s/n: ')
@@ -24,6 +24,6 @@ print('Lista de la compra'.upper())
 for articulo, precio in carrito_compra.items():
     print(articulo, ': \t', precio) # \t: tabulador
     costo += round(precio)
-print('Coste total: ', costo)
+print(f'Coste total: {costo}')
 
 

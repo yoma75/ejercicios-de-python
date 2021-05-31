@@ -2,13 +2,11 @@
 
 import random
 
-colores = ['rojo', 'verde', 'amarillo']
+colors = ['red', 'green', 'yellow']
 
-random.shuffle(colores)
-print(f'Mezcla1: {colores}')
+random.shuffle(colors)
+print(f'Mezcla1: {colors}')  # Mezcla1: ['green', 'yellow', 'red']
 
-random.shuffle(colores)
-print('mezcla2', colores)
-print(colores[random.randint(0,2)])
-
-
+random.shuffle(colors)
+print('mezcla2', colors)  # mezcla2 ['yellow', 'red', 'green']
+print(colors[random.randint(0,2)])  # red
