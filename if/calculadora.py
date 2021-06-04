@@ -1,31 +1,33 @@
-# Programa que muestre un menú al usuario que se repita las veces que sea necesario, hasta que escoja la opción salir. 
-# Las opciones del menú deben permitir:
+num1 = int(input('Digite un numero: '))
+num2 = int(input('Digite otro numero: '))
 
-# 1. Ingresar 2 números 
-# 2. Realizar la suma 
-# 3. Realizar la resta 
-# 4. Realizar la multiplicación
-# 5. Realizarla división 
-# 6. Salir del programa
+print("----------- Calculadora -----------")
+print("1. Suma")
+print("2. Resta")
+print("3. Multiplicacion")
+print("4. Division")
+opc = int(input('Digite una opcion: '))
+print("-----------------------------------")
 
-opc = 0
+if opc == 1:
+    suma = (num1 + num2)    
+    print("La suma entre {0} y {1} es: {2}".format(num1,num2,suma))
 
-while opc != 5:
-  menu = '''
-    1. Sumar
-    2. Restar
-    3. Multiplicar
-    4. Dividir
-    5. Salir
+elif opc == 2:
+    resta = (num1 - num2)
+    print("La resta entre {0} y {1} es: {2}".format(num1,num2,resta))
+    
+elif opc == 3:
+    multi =(num1 * num2)
+    print("La multiplicacion entre {0} y {1} es: {2}".format(num1,num2,multi))
+    
+elif opc == 4:
+    divi = (num1 // num2)
+    print(f'La division entre {num1} y {num2} es: {divi}')
 
-    Choose option:
-  '''
-opc = int(input(menu))
-
-
-
-
-
+elif opc >= 5:
+    print('Opcion errada')
+ 
 
 
 
