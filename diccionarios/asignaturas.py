@@ -10,3 +10,9 @@ for asignatura, creditos in curso.items():
     total_creditos += creditos
 
 print(f'\nTotal de creditos del curso: {total_creditos}')
+
+# Matematicas tiene: 6 creditos
+# Fisica tiene: 4 creditos
+# Quimica tiene: 5 creditos
+
+# Total de creditos del curso: 15

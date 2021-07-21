@@ -8,3 +8,9 @@ person = {'nombre': name, 'edad': age, 'ciudad': city}
 
 print(person['nombre'], 'tiene', person['edad'], 'años, y vive en', person['ciudad'])
 print(person)
+
+# Tu nombre: melba
+# Edad: 87
+# Ciudad donde vives: bogota
+# melba tiene 87 años, y vive en bogota
+# {'nombre': 'melba', 'edad': 87, 'ciudad': 'bogota'}

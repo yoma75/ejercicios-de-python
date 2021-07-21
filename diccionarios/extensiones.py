@@ -15,11 +15,6 @@ extension = {
 x = input('\nDigite extension: ')
 
 if x in extension:
-    print(f'Significado: {extension[x]}')
+    print(f'Significado: {extension[x]}\n')
 else:
     print('No existe esa extensión')
-
-
-
-
-
