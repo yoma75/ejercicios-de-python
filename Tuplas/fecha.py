@@ -3,11 +3,10 @@
 fecha_evento = (2020, 6, 14)
 
 print(type(fecha_evento))
-print()
+print()  # <class 'tuple'>
 
 print(f'El evento fue creado el dia: {fecha_evento}')
-print()
+print()  # El evento fue creado el dia: (2020, 6, 14)
 
 print('El evento fue creado el dia: %i/%i/%i' %fecha_evento)
-
-
+# El evento fue creado el dia: 2020/6/14
