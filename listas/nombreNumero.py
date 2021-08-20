@@ -25,11 +25,14 @@ for i in nombre:
   elif ((i == 'i') or (i == 'q') or (i == 'z')):
     agregar_numero.append(9)
 
-
 print(agregar_numero)
 print(f'La sumita del nombre es: {sum(agregar_numero)}\n')  
 
+nuevoNumero = list()
+nuevoNumero.append(sum(agregar_numero))
+print(nuevoNumero)
+
 
 # Si es mayor o igual a 9
-mayor = [z for z in agregar_numero if z >= 9]
-print(mayor)
+# mayor = [z for z in agregar_numero if z >= 9]
+# print(mayor)
