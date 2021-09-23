@@ -11,6 +11,6 @@ def comp(txt1, txt2):
 	else:
 		return print(False)
 
-comp("AB", "CD")
-comp("ABC", "DE")
-comp("hello", "edabit")
+comp("AB", "CD")  # True
+comp("ABC", "DE") # False
+comp("hello", "edabit")  # False

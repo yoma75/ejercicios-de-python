@@ -20,13 +20,18 @@ class AgenteVentas(Empleado):
 # Crear una instancia:
 pedro = AgenteVentas('Pedro Sarmiento', 32, 'A120', 55000, 4)
 print(pedro.nombre, pedro.sueldoBase)  # Pedro Sarmiento 55000
-print(pedro.calcularSueldo(100, 3000))  # 57900 (55000 - 100 + 3000) sueldoBase - descuentos + bonos
+print(pedro.calcularSueldo(100, 3000))  # 57900 = (55000 - 100 + 3000) sueldoBase - descuentos + bonos
 
 
 # Clase hija
 class Tripulante(Empleado):
-  
+  def mostrarRenovacionLicencia(self):
+    if self.edad < 50:
+      print('Renovar la licencia cada año')
+    else:
+      print('Renueva la licencia cada 6 meses')
 
-
+lucas = Tripulante('Lucas Gutiérrez', 40, 'H456', 60000)
+print(lucas.mostrarRenovacionLicencia())  # Renovar la licencia cada año
 
       

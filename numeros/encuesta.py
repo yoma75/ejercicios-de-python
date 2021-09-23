@@ -35,8 +35,8 @@ while (opc <= 6):
     valor_guardado.append(opc)
     cont1 += 1
   else:
-    print(f'No existe esta opcion\n')
-  
+    print(f'No existe esta opcion\n')  
+
 convertir_a_array = np.array(valor_guardado)
 print(f'{convertir_a_array}\n')
 

@@ -1,3 +1,5 @@
+# Escribir una frase e imprimir cada palabra una debajo de la otra
+
 def run():
     nombre_lista = []
     frase = input('Escribe la frase: ')
