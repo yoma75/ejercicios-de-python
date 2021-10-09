@@ -7,9 +7,6 @@ def mayor(a, b):
         return print(f'El numero {a} es menor que {b}')
         
 print('')
-mayor(2,4)
-mayor(45,19)
-
-
-
+mayor(2,4)  # El numero 2 es menor que 4
+mayor(45,19)  # El numero 45 es mayor que 19
 

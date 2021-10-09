@@ -13,8 +13,6 @@ def relacion(a, b):
     else:
         return 0
 
-print('\nEl primer número es mayor que el segundo: {} '.format(relacion(5, 10)))
-print('El primer número es menor que el segundo: {}'.format(relacion(10, 5)))
-print('Los dos números son iguales: {}'.format(relacion(5, 5)))
-
-
+print('\nEl primer número es mayor que el segundo: {} '.format(relacion(5, 10)))  # -1
+print('El primer número es menor que el segundo: {}'.format(relacion(10, 5)))  # 1
+print('Los dos números son iguales: {}'.format(relacion(5, 5)))  # 0

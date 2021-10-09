@@ -12,7 +12,5 @@ def noticas(puntuacion):
     else:
         return print('La nota no sirve')
 
-noticas(0.96)
-noticas(0.34)
-
-
+noticas(0.96)  # Sobresaliente
+noticas(0.34)  # insuficiente

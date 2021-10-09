@@ -1,16 +1,15 @@
 import random
 import string
 
-# from nombre del archivo import variable
+# from 'nombre del archivo' import 'variable' se encuentra dentro del archivo
 from palabras import palabras
 from ahorcado_diagramas import vidas_diccionario_visual
 
 
 def obtener_palabra_válida(palabras):
-    palabra = random.choice(palabras)  # seleccionar una palabra al azar de la lista
+    palabra = random.choice(palabras)  # seleccionar una palabra al azar del archivo palabras.py
 
-    # Si la palabra contiene un guión o un espacio,
-    # seguir seleccionando una palabra al azar.
+    # Si la palabra contiene un guión o un espacio, seguir seleccionando una palabra al azar.
     while '-' in palabra or ' ' in palabra:
         palabra = random.choice(palabras)
 
