@@ -1,4 +1,4 @@
-# El método count () devuelve el recuento de cuántas veces se produce obj en la lista.
+# count: cuenta el número de veces que aparece un ítem.
 # sintaxis: list.count(obj)
 
 cadena = input('\nEscriba una oración o párrafo: ')
@@ -10,3 +10,7 @@ if (cantidad_de_u == 1):
 else:
     print(f'\nLa cantidad de carácteres "u" es igual a: {cantidad_de_u} veces ')
 
+# -----------------------------------------------------------------------------------
+
+ciudades = ['Bogotá', 'Cali', 'Medellín', 'Cali']
+print(ciudades.count('Cali'))  # 2

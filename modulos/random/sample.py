@@ -3,4 +3,4 @@
 import random
 
 numbers = [345, 568, 864, 808, 69]
-print(f'\n{random.sample(numbers, 3)}')
+print(f'\n{random.sample(numbers, 3)}')  # escoge tres numeros de la lista numbers
