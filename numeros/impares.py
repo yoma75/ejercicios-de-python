@@ -2,5 +2,5 @@
 
 for i in range(201, 500):
     if i%2 == 1:
-        print(i)
+        print(i, end=', ')
 
