@@ -50,5 +50,3 @@ print(algebra.fechaInicioDictado())
 ing.agregarMateria(algebra, 134)
 print(ing.materias)  # {134: <__main__.Materia object at 0x01BA3D48>}
 
-
-

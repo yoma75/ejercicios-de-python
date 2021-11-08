@@ -12,7 +12,10 @@ class Persona:
 # Crear una instancia
 fredy = Persona('Fredy', '33', 'micorreo@gmail.com')
 Karol = Persona('Karol', '23', 'karol@yahoo.es')
-print(fredy)
+
+print(fredy)  # Nombre: Fredy
+              # Edad: 33
+              # Correo: micorreo@gmail.com
 print()
-print(Karol.nombre)
+print(Karol.nombre)  # Karol
 
