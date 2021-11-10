@@ -1,3 +1,5 @@
+# Este rebanado o slice tambien es utilizado para las listas
+
 cadena = 'Este es un ejemplo de rebanado de cadenas'
 
 # del indice 0 hasta el indice 20, solamente toma hasta el index 19
