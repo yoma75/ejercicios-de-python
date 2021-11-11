@@ -1,5 +1,6 @@
 # keys: genera una lista de las claves del diccionario:
 # clave:valor
+# keys:value
 
 colores = { "amarillo":"yellow", "azul":"blue", "verde":"green" }
 

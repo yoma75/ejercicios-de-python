@@ -12,4 +12,3 @@ print()
 diferencia = conjunto1.difference(conjunto2)
 print(diferencia) # {'Negro', 'Rojo'}
 
-
