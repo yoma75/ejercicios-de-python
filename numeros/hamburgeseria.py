@@ -83,7 +83,7 @@ if(valor_neto >= 2200):
     paga = int(input('\nCancela con efectivo: $ '))
     cambio = paga - total_pagar
 
-    print(f'Su cambio es: $ {round(cambio)}')
+    print(f'Su cambio es: $ {round(cambio)}\n')
 
 else:
     print('No escogio ninguna opción')

@@ -10,3 +10,6 @@ print('El área del circulo es de: {r:1.1f} centimetros'.format(r=area_circulo(1
 print('El área del circulo es de: {r:1.1f} centimetros'.format(r=area_circulo(23)))
 print('El área del circulo es de: {r:1.1f} centimetros'.format(r=area_circulo(14)))
 print('El área del circulo es de: {r:1.1f} centimetros'.format(r=area_circulo(56)))
+
+
+# mas informacion en: https://www.w3schools.com/python/module_math.asp

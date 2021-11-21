@@ -17,7 +17,7 @@ r = r * 1000000
 # Año expresado en segundos, se encuentra la longitud de la circunferencia (2*pi*r), esa es la orbita y se divide por la velocidad
 year = 2 * pi * r / v
 
-# Para trasladar los segundos entre dias necesita dividir por 60 y consigue los minutos, entonces multiplica en 60 y consigue las horas y multiplica en 24 para consguir los dias
+# Para trasladar los segundos entre dias necesita dividir por 60 y consigue los minutos, entonces multiplica en 60 y consigue las horas y multiplica en 24 para conseguir los dias
 year = year / (60 * 60 * 24)
 
 print(str(round(year))+' días')

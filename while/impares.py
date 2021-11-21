@@ -4,5 +4,5 @@ x = 1
 
 while x < 11:
   if x % 2 != 0:
-    print(x, end=', ')
+    print(x, end=', ')  # 1, 3, 5, 7, 9,
   x += 1

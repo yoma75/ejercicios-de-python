@@ -2,7 +2,7 @@
 
 
 def sumar(x, y):
-    suma = x+y
+    suma = x + y
 
     if suma in range(10, 31):
         return 30
