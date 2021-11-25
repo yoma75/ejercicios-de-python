@@ -5,14 +5,23 @@ class Fabrica:
     self.ruedas = ruedas
     print('Se creo el auto ', self.nombre)
   
+
   def __del__(self):
     print('Se elimino el auto', self.nombre)
       
 
+  # convertir un objeto a una cadena string
   def __str__(self):
-    return "{} se fabrico con exito en {} meses y tiene ruedas {}".format(self.nombre, self.tiempo, self.ruedas)
+    return "{} se fabrico con exito en {} meses y tiene {} ruedas".format(self.nombre, self.tiempo, self.ruedas)
 
 
-a = Fabrica(10, 'Mazda', 5)
+  def __len__(self):
+    return self.tiempo  
 
-print(str(a))
+a = Fabrica(10, 'Mazda', 4)
+
+
+print(str(a))  # Mazda se fabrico con exito en 10 meses y tiene 4 ruedas
+
+print(len(a))  # 10
+
