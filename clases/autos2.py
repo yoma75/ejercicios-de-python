@@ -6,7 +6,7 @@ class Fabrica:
     print('Se creo el auto', self.nombre)
 
   def __str__(self):
-    return "{} {} meses".format(self.nombre, self.tiempo)
+    return "{} {}".format(self.nombre, self.tiempo)
 
 
 class Listado:
@@ -24,11 +24,15 @@ class Listado:
       print(x)
 
 
-a = Fabrica(10, 'Renault', 5)
-print(a)
+# ---------------- Creacion de objetos: -------------------
+
+r = Fabrica(10, 'Renault', 5)
+print(r)  # Se creo el auto Renault
 
 
-m = Listado([a])
-m.visualizar()
-print(m)
+lista = Listado([r])
+lista.visualizar()  # Renault 10 
 
+
+lista.fabricar(Fabrica(15, 'Audi', 5))  # Se creo el auto Audi
+lista.visualizar()  # Audi 15 
