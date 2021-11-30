@@ -1,4 +1,4 @@
-# POLIMORFISMO:
+# POLIMORFISMO: poli: se refiere a muchas clases, morfismo: tiende a modificarse
 
 class Fabrica:
   def __init__(self,marca,nombre,precio,descripcion):
@@ -61,6 +61,7 @@ accesorios.fabricante = 'Yo'
 
 fabrica = [accesorios, deportivo]
 fabrica.append(a)
+print(len(fabrica))  # 3
 
 
 for x in fabrica:
@@ -78,21 +79,22 @@ for x in fabrica:
                  # RUEDAS:         3
                  # DISTRIBUIDOR:   El autico
 
-                 # MARCA:            Ford
-                 # NOMBRE:           Ranger
-                 # PRECIO:           65258000
-                 # DESCRIPCION:      Camioneta
+                 # MARCA:          Ford
+                 # NOMBRE:         Ranger
+                 # PRECIO:         65258000
+                 # DESCRIPCION:    Camioneta
 
 for x in fabrica:
-  print(x.marca, x.precio)  # Fiat 259740
+  print(x.marca, x.precio)  # Fiat 5000
                             # Audi 25456000
-                            # Ford 65258000
+                            # Ford 7000
 
-# Muestra ERROR porque el atributo 'autor' no esta en el objeto Deportivo
+# Muestra ERROR porque dentro del objeto Deportivo no se encuentra el atributo autor
 # for x in fabrica:
 #   print(x.autor)
 
 
+# Con isinstance podemos tratar cada subclase de una forma distinta
 for x in fabrica:
   if(isinstance(x, Auto)):
     print(x.marca, x.nombre)  # Ford Ranger
@@ -102,7 +104,7 @@ for x in fabrica:
     print(x.marca, x.nombre, x.fabricante)  # Fiat luces de neon Yo
 
 
-def Descuento_auto(t, descuento):
+def Descuento_auto(t, descuento):  # t: es el objeto del descuento y el descuento es el valor del descuento 
   t.precio = t.precio - (t.precio / 100 * descuento)
 
 Descuento_auto(accesorios, 10)

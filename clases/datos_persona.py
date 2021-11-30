@@ -1,4 +1,4 @@
-# Crear una Clase para Representar los Datos de una Persona
+# Crear una Clase para representar los Datos de una Persona
 
 class Persona:
     def __init__(self, nombre, edad, correo): # Constructor o inicializar clase
@@ -16,6 +16,5 @@ Karol = Persona('Karol', '23', 'karol@yahoo.es')
 print(fredy)  # Nombre: Fredy
               # Edad: 33
               # Correo: micorreo@gmail.com
-print()
-print(Karol.nombre)  # Karol
 
+print(f'\n{Karol.nombre}')  # Karol

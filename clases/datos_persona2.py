@@ -13,6 +13,6 @@ def __str__(self) -> str:
     return (f'{self.nombre}: {self.edad}, {self.correo}')
 
 personita1 = Persona('Carlos Ramírez', 34, 'micorreo@hotmail.com')
-print(personita1)
-print(personita1.edad)
 
+print(personita1)  # Persona(nombre='Carlos Ramírez', edad=34, correo='micorreo@hotmail.com')
+print(personita1.edad)  # 34
