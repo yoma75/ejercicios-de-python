@@ -8,17 +8,21 @@ class Calculadora:
     self.valor1 = int(input('\nIngrese el primer valor: '))
     self.valor2 = int(input('Ingrese el segundo valor: '))
 
+
   def suma(self):
     self.sumita = self.valor1 + self.valor2
     print(f'\nEl total de la SUMA es: {self.sumita}')
+
 
   def resta(self):
     self.restica = self.valor1 - self.valor2
     print(f'El total de la RESTA es: {self.restica}')
   
+
   def multiplicar(self):
     self.multiplicacion = self.valor1 * self.valor2
     print(f'El total de la MULTIPLICACION es: {self.multiplicacion}')
+
 
   def division(self):
     self.dividir = self.valor1 / self.valor2
