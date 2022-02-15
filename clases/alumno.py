@@ -15,7 +15,7 @@ class Alumno():
       print('Has aprobado\n')
 
 
-# Esta clase no tiene metodo __init__ por tal motivo mandamos los datos al metodo datosPersonales, porque el ejercicio no pide constructor
+# Esta clase no tiene método __init__ por tal motivo mandamos los datos al método datosPersonales, porque el ejercicio no pide constructor
 
 alumno1 = Alumno()
 alumno1.datosPersonales('Carlos', 3)

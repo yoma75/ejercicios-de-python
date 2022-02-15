@@ -3,12 +3,12 @@
 def area_rectangulo(base, altura):
     return base*altura
 
-print('El area del rectangulo es de: {} centimetros'.format(area_rectangulo(15,10)) )
-print('El area del rectangulo es de: {} centimetros'.format(area_rectangulo(10,10)) )
-print('El area del rectangulo es de: {} centimetros'.format(area_rectangulo(23,25)) )
-print('El area del rectangulo es de: {} centimetros'.format(area_rectangulo(5,10)) )
+print('El área del rectángulo es de: {} centimetros'.format(area_rectangulo(15,10)) )
+print('El área del rectángulo es de: {} centimetros'.format(area_rectangulo(10,10)) )
+print('El área del rectángulo es de: {} centimetros'.format(area_rectangulo(23,25)) )
+print('El área del rectángulo es de: {} centimetros'.format(area_rectangulo(5,10)) )
 
-# El area del rectangulo es de: 150 centimetros
-# El area del rectangulo es de: 100 centimetros
-# El area del rectangulo es de: 575 centimetros
-# El area del rectangulo es de: 50 centimetros
+# El área del rectángulo es de: 150 centimetros
+# El área del rectángulo es de: 100 centimetros
+# El área del rectángulo es de: 575 centimetros
+# El área del rectángulo es de: 50 centimetros

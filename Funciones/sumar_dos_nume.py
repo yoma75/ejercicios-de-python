@@ -1,14 +1,9 @@
 # Sumar Dos Números. Si la Suma se Halla entre 10 y 30, Retornar 30
 
 
-def sumar(x, y):
-    suma = x + y
+def suma(x, y):
+    return f'La suma entre {x} y {y} es: {x + y}'
 
-    if suma in range(10, 31):
-        return 30
-    else:
-        return suma
-
-print(sumar(12, 23))
-print(sumar(2, 3))
-print(sumar(11, 17))
+print(suma(1, 2))       # La suma entre 1 y 2 es: 3
+print(suma(0, 0))       # La suma entre 0 y 0 es: 0
+print(suma(245, 923))   # La suma entre 245 y 923 es: 1168

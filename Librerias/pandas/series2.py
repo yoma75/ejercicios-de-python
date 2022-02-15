@@ -14,4 +14,9 @@ def estadistica_notas(notas):
 notas = {'Juan':9, 'María':6.5, 'Pedro':4, 'Carmen': 8.5, 'Luis': 5}
 print(estadistica_notas(notas))
 
+# Min                  4.000000
+# Max                  9.000000
+# Media                6.600000
+# Desviación típica    2.162175
+# dtype: float64
 

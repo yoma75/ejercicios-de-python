@@ -10,4 +10,4 @@ for a in animales:
 # caballo 7
 # gato 4
 # delfin 6
-# hipopotamo 10
+# hipopótamo 10

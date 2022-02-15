@@ -1,4 +1,4 @@
-# Este rebanado o slice tambien es utilizado para las listas
+# Este rebanado o slice también es utilizado para las listas
 
 cadena = 'Este es un ejemplo de rebanado de cadenas'
 
@@ -8,5 +8,5 @@ print(cadena[ : 20])  # Este es un ejemplo d
 # desde el indice 20 hasta el final
 print(cadena[20 :])  # e rebanado de cadenas
 
-# de atras hacia adelante el indice 3
+# de atrás hacia adelante el indice 3
 print(cadena[-3])  # n

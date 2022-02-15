@@ -24,7 +24,7 @@ class Listado:
       print(x)
 
 
-# ---------------- Creacion de objetos: -------------------
+# ---------------- Creación de objetos: -------------------
 
 r = Fabrica(10, 'Renault', 5)
 print(r)  # Se creo el auto Renault

@@ -55,7 +55,7 @@ deportivo = Deportivo('Audi', 'Esencial', 25456000, 'Confort')
 deportivo.ruedas = 3
 deportivo.distribuidor = 'El autico'
 
-accesorios = Accesorios('Fiat', 'luces de neon', 5000, 'Iluminan mejor')
+accesorios = Accesorios('Fiat', 'luces de neón', 5000, 'Iluminan mejor')
 accesorios.autor = 'Vos'
 accesorios.fabricante = 'Yo'
 
@@ -66,7 +66,7 @@ print(len(fabrica))  # 3
 
 for x in fabrica:
   print(x,'\n')  # MARCA:          Fiat
-                 # NOMBRE:         luces de neon
+                 # NOMBRE:         luces de neón
                  # PRECIO:         259740
                  # DESCRIPCION:    Iluminan mejor
                  # AUTOR:          Vos
@@ -101,7 +101,7 @@ for x in fabrica:
   elif(isinstance(x, Deportivo)):
     print(x.marca, x.nombre, x.ruedas)  # Audi Esencial 3
   elif(isinstance(x, Accesorios)):
-    print(x.marca, x.nombre, x.fabricante)  # Fiat luces de neon Yo
+    print(x.marca, x.nombre, x.fabricante)  # Fiat luces de neón Yo
 
 
 def Descuento_auto(t, descuento):  # t: es el objeto del descuento y el descuento es el valor del descuento 
@@ -115,7 +115,7 @@ import copy
 
 copia_deportivo = copy.copy(accesorios)
 print(copia_deportivo)  # MARCA:          Fiat
-                        # NOMBRE ACC:     luces de neon
+                        # NOMBRE ACC:     luces de neón
                         # PRECIO:         4500.0
                         # DESCRIPCION:    Iluminan mejor
                         # AUTOR:          Vos

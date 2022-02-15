@@ -2,5 +2,5 @@
 
 for x in range(0, 11):
   if x % 2 != 0:
-    print(x)
+    print(x, end=", ")  # 1, 3, 5, 7, 9,
 
