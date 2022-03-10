@@ -1,5 +1,5 @@
 def palindromo(palabra):    
-    # Reemplazar todos los espacios por un string vacio
+    # Reemplazar todos los espacios por un string vacío
     palabra = palabra.replace(' ', '')
     palabra = palabra.upper()
     palabra_invertida = palabra[::-1]
@@ -9,7 +9,7 @@ def palindromo(palabra):
         return False
         
 
-# indica que desde aqui ejecuta el codigo
+# indica que desde aquí ejecuta el codigo
 def run():
     palabra = input('Escribe una palabra: ')
     es_palindromo = palindromo(palabra)
