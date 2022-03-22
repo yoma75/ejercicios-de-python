@@ -1,8 +1,8 @@
 # Sumar los Dígitos Integrales de un Número Entero
 # Ejemplo: 1237: 13 (1+2+3+7)
 
-# El numero capturado se pàsa a una lista
-# Cada posicion de la lista sera un caracter
+# El numero capturado se pasa a una lista
+# Cada posición de la lista sera un caracter
 
 
 numero = input('Digite un numero entero positivo: ') # 1237
@@ -22,4 +22,3 @@ print(f'La suma es: {suma}')
 # Forma resumida
 sumita = sum([int(x) for x in numero])
 print(f'La sumita es: {sumita}')
-
