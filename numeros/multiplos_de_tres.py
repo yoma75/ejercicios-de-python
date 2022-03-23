@@ -2,6 +2,7 @@
 
 for x in range(36, 100):
     if x % 3 == 0:
-        print(f'{x} .... Es multiplo de 3')
+        print(f'{x} .... Es múltiplo de 3')
     elif x % 5 == 0:
-        print(f'{x} .... Es multiplo de 5')
+        print(f'{x} .... Es múltiplo de 5')
+

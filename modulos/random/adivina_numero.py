@@ -29,5 +29,4 @@ if estimacion == numero:
 print('')
 if estimacion != numero: # Diferente a 
     numero = int(numero)
-    print(f'Fallaste, el numero que pense fue {numero}')
-
+    print(f'Fallaste, el numero que pensé fue {numero}')

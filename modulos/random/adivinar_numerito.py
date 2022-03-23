@@ -6,12 +6,13 @@ def run():
     numero_elegido = int(input('Elige un numero del 1 al 100: '))
     while numero_elegido != numero_aleatorio:
         if numero_elegido < numero_aleatorio:
-            print('Busca un numero mas grande')
+            print('Busca un número mas grande')
         else:
-            print('Busca un numero mas pequeno')
+            print('Busca un número mas pequeño')
         numero_elegido = int(input('Elige otro numero: '))
     print('¡Ganaste!')
 
 
 if __name__ == '__main__':
     run()
+

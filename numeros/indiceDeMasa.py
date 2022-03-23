@@ -7,3 +7,8 @@
 # Por ejemplo, si el usuario ingresa 65 de peso y 1.8 de altura el programa debe imprimir en la  consola la frase "Tu BMI es 20.061728395061728".
 
 
+peso = int(input('Peso de la persona: '))
+altura = float(input('Altura de la persona: '))
+
+print(f'Tu BMI es: {round(peso / (altura ** 2),2)}')  # 2: decimales despues del punto
+
