@@ -8,3 +8,4 @@ def saludo(nombre):
 
 saludo('Pedro')  # Hola Pedro!
 saludo('Juliana')  # Hola Juliana!
+saludo('')  # Hola !

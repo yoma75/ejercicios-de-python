@@ -2,8 +2,7 @@
 
 
 def edad_perruna(nombre, edad):
-  years_perrunos = edad * 7
-  return f'{nombre} tienes en años perrunos: {years_perrunos} años'
+  return f'{nombre} tienes en años perrunos: {edad * 7} años'
 
 print(f'{edad_perruna("Pedro", 20)}')  # 140
 print(f'{edad_perruna("Maria", 8)}')   # 56
