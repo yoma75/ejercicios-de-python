@@ -7,4 +7,3 @@ print(all(x > 1 for x in numeros)) # True
 
 # Todos los numeros son mayor que 5
 print(all(x > 5 for x in numeros)) # False
-

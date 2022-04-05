@@ -5,5 +5,4 @@ alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n'
 for i in range(len(alphabet), 1, -1):
     if i % 3 == 0:
         alphabet.pop(i-1)
-print(alphabet)
-
+print(alphabet)  # ['a', 'b', 'd', 'e', 'g', 'h', 'j', 'k', 'm', 'n', 'o', 'p', 'r', 's', 'u', 'v', 'x', 'y']

@@ -2,8 +2,7 @@
 # árbol => ar captura los dos primeros caracteres y los multiplica las veces requeridas
 
 cadena=input('Introduzca cadena:')
-numero=int(input('Introduzca numero de caracteres de la subcadena :'))
+numero=int(input('Introduzca número de carácteres de la subcadena :'))
 
 cadena2=cadena[:numero]*numero
 print(cadena2)
-

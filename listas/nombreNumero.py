@@ -32,7 +32,3 @@ nuevoNumero = list()
 nuevoNumero.append(sum(agregar_numero))
 print(nuevoNumero)
 
-
-# Si es mayor o igual a 9
-# mayor = [z for z in agregar_numero if z >= 9]
-# print(mayor)
