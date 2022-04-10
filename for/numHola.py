@@ -5,11 +5,9 @@
 # lugar del numero 
 
 for x in range(100):
-    
-    if x % 3==0:
-        print('hola')
-    elif x % 5==0:
-        print('Mundo')
-    else:
-        print('HolaMundo')
-
+  if x % 3 == 0:
+    print('hola')
+  elif x % 5 == 0:
+    print('Mundo')
+  else:
+    print('HolaMundo')
