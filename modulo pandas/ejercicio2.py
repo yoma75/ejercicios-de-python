@@ -79,4 +79,3 @@ print(w)
 #   Continente Densidad  Superficie      Población              País más poblado             Ciudad más poblada
 # 3    América     23,5  42.330.000  1.094.215.000  Estados Unidos (330.028.000)  Ciudad de México (22.577.000)
 # 4    Oceanía     4,25   9.008.500     40.201.000        Australia (27.240.000)             Sídney (6.550.000)
-

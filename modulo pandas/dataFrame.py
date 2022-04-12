@@ -6,4 +6,3 @@ webbrowser.open(website)  # .open, abre la pagina
 
 # leer desde el porta papeles, seleccionar y copiar
 dataFrame_nba = pd.read_clipboard()
-
