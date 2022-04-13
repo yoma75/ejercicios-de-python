@@ -10,4 +10,3 @@ def producto_cadena(cadena, repeticion):
 
 print()
 print(producto_cadena('Hola ', 3))
-
