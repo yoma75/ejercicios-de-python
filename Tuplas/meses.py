@@ -5,4 +5,3 @@ meses = ('enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto
 opcionMes = int(input('\nIngresa el número del mes: '))
 
 print(f'El número {opcionMes} corresponde al mes de: {meses[opcionMes-1]}\n')
-
