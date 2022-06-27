@@ -1,4 +1,4 @@
-# Enumera cada una de las palabras y vocales, y las repetidas las va sumando
+'''Enumera cada una de las palabras y vocales, y las repetidas las va sumando'''
 
 palabra = 'brontosaurio'
 

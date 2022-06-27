@@ -1,4 +1,4 @@
-# Digite una extension y diga que clase de archivo es:
+'''Digite una extension y diga que clase de archivo es:'''
 
 extension = {
     'pdf':'Documento Adobe PDF',

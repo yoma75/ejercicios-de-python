@@ -1,4 +1,4 @@
-# Dice cuantas veces se repiten los caracteres en cada cadena
+''' Dice cuantas veces se repiten los caracteres en cada cadena'''
 
 contadores = {}
 
