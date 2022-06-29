@@ -1,5 +1,5 @@
-# funcion enumerate()
-# retorna una tupla que contiene un contador (desde start, cuyo valor por defecto es 0) y los valores obtenidos al iterar sobre iterable.
+'''funcion enumerate()
+retorna una tupla que contiene un contador (desde start, cuyo valor por defecto es 0) y los valores obtenidos al iterar sobre iterable.'''
 
 gatos = ['silvestre', 'felix', 'cosmico', 'garfield']
 

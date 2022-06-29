@@ -1,4 +1,4 @@
-# max: retorna el elemento mayor en un iterable o el mayor de dos o más argumentos.
+'''max: retorna el elemento mayor en un iterable o el mayor de dos o más argumentos.'''
 
 numeros = [189, 248, 745, 197, 895, 369]
 print(f'El número mayor es: {max(numeros)}')  # El número mayor es: 895

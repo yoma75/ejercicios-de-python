@@ -1,3 +1,7 @@
+'''
+.isleap: devuelve True o False para años bisiestos o no bisiestos
+'''
+
 import calendar
 
 def yearBisiesto(year):

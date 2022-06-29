@@ -1,4 +1,5 @@
-# Cómo Encontrar los n Elementos Más Grandes o Más Pequeños de una Lista con heapq
+'''Cómo Encontrar los n Elementos Más Grandes o Más Pequeños de una Lista con heapq'''
+
 
 import heapq
 
@@ -11,4 +12,3 @@ print(heapq.nlargest(2, numeros))  # [102, 96]
 
 # 4 valores mas pequeños de la lista
 print(heapq.nsmallest(4, numeros))  # [10, 23, 32, 54]
-

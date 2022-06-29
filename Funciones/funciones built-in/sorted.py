@@ -1,4 +1,4 @@
-# sorted: retorna una copia de una lista en forma ordenada, sin alterar la lista original.
+'''sorted: retorna una copia de una lista en forma ordenada, sin alterar la lista original.'''
 
 numbers = [14, 24, 75, 17, 85, 69, 7]
 print(f'desordenada: {numbers}')       # [14, 24, 75, 17, 85, 69, 7]

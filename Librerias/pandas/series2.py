@@ -1,4 +1,4 @@
-# Escribir una función que reciba una diccionario con las notas de los alumnos en curso en un examen y devuelva una serie con la nota mínima, la máxima, media y la desviación típica.
+'''Escribir una función que reciba un diccionario con las notas de los alumnos en curso en un examen y devuelva una serie con la nota mínima, la máxima, media y la desviación típica.'''
 
 import pandas as pd
 
@@ -12,11 +12,11 @@ def estadistica_notas(notas):
     return estadisticos
 
 notas = {'Juan':9, 'María':6.5, 'Pedro':4, 'Carmen': 8.5, 'Luis': 5}
-print(estadistica_notas(notas))
+print(round(estadistica_notas(notas),2))
 
-# Min                  4.000000
-# Max                  9.000000
-# Media                6.600000
-# Desviación típica    2.162175
+# Min                  4.00
+# Max                  9.00
+# Media                6.60
+# Desviación típica    2.16
 # dtype: float64
 

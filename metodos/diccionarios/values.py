@@ -1,4 +1,4 @@
-# values: genera una lista de los valores del diccionario:
+'''values: genera una lista de los valores del diccionario:'''
 # clave:valor
 
 colores = { 

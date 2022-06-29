@@ -1,4 +1,4 @@
-# FILTER: función para filtrar resultados según una condición
+'''FILTER: función para filtrar resultados según una condición'''
 
 def positivo(numero):
   if (numero > 0):

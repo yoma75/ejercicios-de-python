@@ -1,15 +1,11 @@
-# Calcular la duracion del año en planetas
+'''Calcular la duración del año en planetas'''
 
 
 # Importa la constante pi desde el modulo math
 from math import pi
 
-r = input("\nRadio de la orbita (millones de kilometros): ")
-v = input("Velocidad orbital (km/s): ")
-
-# Los string son convertidos a numeros float
-r = float(r)
-v = float(v)
+r = float(input("\nRadio de la orbita (millones de kilómetros): "))
+v = float(input("Velocidad orbital (km/s): "))
 
 # traducir millones de kilómetros, en solo kilómetros
 r = r * 1000000
@@ -20,4 +16,5 @@ year = 2 * pi * r / v
 # Para trasladar los segundos entre dias necesita dividir por 60 y consigue los minutos, entonces multiplica en 60 y consigue las horas y multiplica en 24 para conseguir los dias
 year = year / (60 * 60 * 24)
 
-print(str(round(year))+' días')
+print(f'{round(year)} días\n')
+

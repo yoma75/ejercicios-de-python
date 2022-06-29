@@ -1,4 +1,4 @@
-# keys: genera una lista de las claves del diccionario:
+'''keys: genera una lista de las claves del diccionario:'''
 # clave:valor
 # keys:value
 
