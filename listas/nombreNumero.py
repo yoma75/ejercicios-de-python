@@ -1,4 +1,7 @@
-p = input('\nDigite su primer nombre: ')
+from math import floor
+
+
+p = input('\nDigite su primer nombre: ').lower()
 nombre = list(p)
 print(nombre)
 
@@ -26,9 +29,13 @@ for i in nombre:
     agregar_numero.append(9)
 
 print(agregar_numero)
-print(f'La sumita del nombre es: {sum(agregar_numero)}\n')  
+n = sum(agregar_numero)
+print(f'La suma del nombre es: {n}\n')  
 
-nuevoNumero = list()
-nuevoNumero.append(sum(agregar_numero))
-print(nuevoNumero)
+# suma = 0
+# while n > 0:
+#   suma = suma + n % 10
+#   n = n / 10
 
+# redondea numero hacia abajo
+# print(f'Numero final: {floor(suma)}')
