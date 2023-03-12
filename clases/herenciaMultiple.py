@@ -26,3 +26,7 @@ print(herencia_multiple.primerita())  # Este es le metodo heredado de PRIMERA
 print(herencia_multiple.secundita())  # Este es le metodo heredado de SEGUNDA
 print(herencia_multiple.tercerita())  # Este es le metodo heredado de TERCERA
 
+
+''' Definir tres clases: Primera, Segunda y Tercera. La clase Tercera hereda de las clases Segunda y Primera, lo que se llama herencia múltiple. Cada clase tiene un método init que imprime un mensaje y otro método que devuelve una cadena. La clase Tercera también tiene un método propio llamado tercerita.
+
+Has creado un objeto de la clase Tercera llamado herencia_multiple y has impreso su representación. Luego has llamado a los métodos primerita, secundita y tercerita para el objeto y los has impreso.'''

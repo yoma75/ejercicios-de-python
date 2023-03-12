@@ -26,3 +26,7 @@ pulpo.hablar()  # Soy un pulpo
 foca = Foca()
 foca.hablar('Hola, soy la foca')  # Hola, soy la foca
 
+
+''' Explicacion con IA Bing: esto parece ser un código de Python que muestra el concepto de la herencia y el polimorfismo . La herencia es la capacidad de una clase para heredar los atributos y métodos de otra clase . El polimorfismo es la capacidad de un objeto para cambiar su comportamiento según el contexto o el tipo de clase al que pertenece .
+
+En este caso, la clase Marino es la clase base o padre, y las clases Pulpo y Foca son las clases derivadas o hijas. Estas clases heredan el método hablar() de la clase Marino, pero lo sobrescriben con su propia definición. Esto hace que cada objeto creado a partir de estas clases tenga un comportamiento diferente al llamar al método hablar(). Por ejemplo, el objeto pulpo dice ‘Soy un pulpo’, mientras que el objeto foca dice lo que se le pasa como argumento.'''

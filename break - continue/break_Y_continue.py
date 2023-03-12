@@ -1,4 +1,4 @@
-# break: termina el ciclo inmediatamente
+# break: termina el ciclo inmediatamente y sale del programa
 
 for x in range(10):
   if x % 2 == 0:
@@ -15,7 +15,7 @@ print('Hola mundo\n')
 
 for x in range(10):
   if x % 2 == 0:
-    print('par')  # si es PAR
+    print('aqui va un numero par')  # si es PAR
     continue
   print(x)  # muestra el número si es IMPAR
 

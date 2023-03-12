@@ -5,14 +5,16 @@ class Alumno():
     self.nombre = nombre
     self.nota = nota
   
+  # imprime los atributos
   def imprimir(self):
     print(f'NOMBRE: {self.nombre}\nNOTA: {self.nota}')
   
+  # Mostrar el mensaje con el resultado de la nota
   def resultadoNota(self):
     if self.nota < 5:
-      print('Has reprobado\n')
+      print(f'{self.nombre}, has reprobado\n')
     else:
-      print('Has aprobado\n')
+      print(f'Felicitaciones {self.nombre}, has aprobado\n')
 
 
 # Esta clase no tiene método __init__ por tal motivo mandamos los datos al método datosPersonales, porque el ejercicio no pide constructor
@@ -23,6 +25,8 @@ alumno1.datosPersonales('Carlos', 3)
 alumno2 = Alumno()
 alumno2.datosPersonales('Maria', 9)
 
+
+# LLamar a los metodos:
 alumno1.imprimir()  # NOMBRE: Carlos
                     # NOTA: 3
 
@@ -32,4 +36,3 @@ alumno2.imprimir()  # NOMBRE: Maria
                     # NOTA: 9
 
 alumno2.resultadoNota()  # Has aprobado
-
