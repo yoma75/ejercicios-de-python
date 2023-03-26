@@ -12,7 +12,3 @@ numeritos = {1:'a', 'prueba':[1,2,3,5], (4,5):3}
 
 # Que retorna numeritos["prueba"][2]
 # 3, porque esta en la posición que solicitan
-
-
-
-

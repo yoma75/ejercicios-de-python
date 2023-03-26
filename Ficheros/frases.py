@@ -1,6 +1,6 @@
 # Pedir la usuario 3 frases y guardarlas en un fichero como  "frases.txt"
 # Añadir una cuarta frase al fichero anterior
-# Mostrar el contendio de "frases.txt", procediendo de línea con un número correlativo
+# Mostrar el contenido de "frases.txt", procediendo de línea con un número correlativo
 
 
 for x in range(3):

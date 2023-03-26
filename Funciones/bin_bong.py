@@ -1,11 +1,8 @@
-'''
-Escribe una función llamada bing_bong que reciba un número como parámetro:
-
+'''Escribe una función llamada bing_bong que reciba un número como parámetro:
 Si el número es múltiplo de 3 debe retornar "bing".
 Si el número es múltiplo de 5 debe retornar "bong".
 Si el número es múltiplo tanto de 3 como de 5 debe retornar "bingbong".
-Si no cumple ninguna de las condiciones anteriores debe retornar el mismo número.
-'''
+Si no cumple ninguna de las condiciones anteriores debe retornar el mismo número.'''
   
 
 def bing_bong(num):

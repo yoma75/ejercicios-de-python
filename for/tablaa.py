@@ -1,4 +1,4 @@
-# Pide al usuario un número entero (por ejemplo, 5) y muestra la tabla de multiplicar de ese número (desde "5 x 1 = 5" hasta "5 x 10 = 50").
+# Tabla de multiplicar
 
 numero = int(input('\nCuál tabla de multiplicar desea ver: '))
 
