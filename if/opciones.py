@@ -6,7 +6,7 @@
 # Caso 2: Se debe solicitar el año de nacimiento y el año actual y determinar si es o no mayor de edad.
 
 notas = list([])
-YEAR_ACTUAL = 2020
+YEAR_ACTUAL = 2023
 sumar_notas = 0
 
 print('')

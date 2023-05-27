@@ -18,7 +18,3 @@ while i < 10:
 print()
 print(f'Existen {mayor} estudiantes mayores de edad')
 print(f'Existen {menor} estudiantes menores de edad')
-
-
-
-

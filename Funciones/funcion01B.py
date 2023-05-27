@@ -5,16 +5,14 @@ def opbasicas(a,b,c):
 	multi = a*b*c
 	divis = a/b/c
 
-	return suma,resta,multi,divis
+	return f'Totales: suma: {suma}, resta: {resta}, Multiplicacion: {multi}, División: {round(divis,2)}'
 
 
 final=opbasicas(12,7,9)
 final2=opbasicas(14,2,-3)
 
 print(final)
-# (28, -4, 756, 0.19047619047619047)
+# Totales: suma: 28, resta: -4, Multiplicacion: 756, División: 0.19
 
 print(final2)
-# (13, 15, -84, -2.3333333333333335)
-
-
+# Totales: suma: 13, resta: 15, Multiplicacion: -84, División: -2.33

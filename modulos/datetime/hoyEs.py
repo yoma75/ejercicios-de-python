@@ -1,7 +1,7 @@
 # Para obtener la fecha y hora actuales, necesitamos usar la biblioteca de fecha y hora
 from datetime import datetime
 
-# La función ahora devuelve la fecha y hora actuales
+# La función now devuelve la fecha y hora actual
 today = datetime.now()
 
 # uso de funciones de día, mes, año, hora, minuto y segundo

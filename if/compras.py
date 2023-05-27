@@ -22,3 +22,4 @@ elif valor_a_pagar >= 50001:
     print(f'Total: {total}'.upper())
 else:
     print('No recibe descuento, compra menor a 10.000')
+    

@@ -6,7 +6,7 @@
 
 
 def propina(total, porcentaje):
-  return f'El valor de la propina es: {int(total / 100 * porcentaje)}'
+  return f'El valor de la propina es: {int(total * porcentaje / 100)}'
 
 print(propina(100, 50))
 print(propina(200, 10))

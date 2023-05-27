@@ -1,0 +1,41 @@
+import datetime
+
+def menu():
+    print("Menú:")
+    print("1. ¿Pasa o no la materia?")
+    print("2. ¿Es mayor o menor de edad?")
+    print("0. Salir")
+
+def promedio_notas():
+    print("Ingrese las tres notas:")
+    nota1 = float(input("Nota 1: "))
+    nota2 = float(input("Nota 2: "))
+    nota3 = float(input("Nota 3: "))
+    promedio = (nota1 + nota2 + nota3) / 3
+    if promedio >= 3.0:
+        print("El estudiante pasa.")
+    else:
+        print("El estudiante no pasa.")
+
+def edad():
+    print("Ingrese el año de nacimiento:")
+    anio_nacimiento = int(input())
+    anio_actual = datetime.datetime.now().year
+    edad = anio_actual - anio_nacimiento
+    if edad >= 18:
+        print("Es mayor de edad.")
+    else:
+        print("Es menor de edad.")
+
+while True:
+    menu()
+    opcion = input("Ingrese la opción deseada: ")
+    if opcion == "1":
+        promedio_notas()
+    elif opcion == "2":
+        edad()
+    elif opcion == "0":
+        print("Hasta luego!")
+        break
+    else:
+        print("Opción inválida.")

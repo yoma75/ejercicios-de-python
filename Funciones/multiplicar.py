@@ -1,5 +1,6 @@
+#  Tabla de multiplicar
 
-a = int(input('\nDigite el numero de la tabla que desea saber: '))
-for x in range(1,11):        
-    print('{} x {} = {}'.format(a,x,(a*x)))
+a = int(input('\nDigite el número de la tabla que desea saber: '))
+for b in range(1,11):        
+    print(f'{a} x {b} = {a*b}')
           

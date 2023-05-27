@@ -14,4 +14,3 @@ if edad <= 18 and estatura >= 1.80 and peso <= 80:
     print('ACEPTADO, cumples con las condiciones exigidas')
 else:
     print('RACHAZADO, no cumples con las condiciones exigidas')
-
