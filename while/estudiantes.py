@@ -5,8 +5,8 @@ hombre = mujer = x = 0 # Las tres variables tienen el mismo valor de cero
 opc = ''
 
 while x < 10:
-    print('Eres hombre')
-    print('Eres mujer')
+    print('Eres hombre: ')
+    print('Eres mujer: ')
     opc = input('Escoja la opcion: ')
     estudiantes.append(opc)
     print()
