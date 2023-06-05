@@ -7,5 +7,5 @@ print(os.name) # nt
 print(platform.system()) # windows
 
 # version de la plataforma
-print(platform.release()) # 7
+print(platform.release()) # 10
 

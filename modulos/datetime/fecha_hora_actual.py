@@ -10,4 +10,3 @@ print(ahora)
 print()
 print(ahora.strftime('%d/%m/%Y %H:%M:%S')) # formatea fecha y hora
 
-

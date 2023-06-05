@@ -2,6 +2,7 @@
 
 meses = ('enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre')
 
-opcionMes = int(input('\nIngresa el número del mes: '))
+opcionMes = int(input('\nIngresa el número del mes: '))  # 5
 
 print(f'El número {opcionMes} corresponde al mes de: {meses[opcionMes-1]}\n')
+# El número 5 corresponde al mes de: mayo

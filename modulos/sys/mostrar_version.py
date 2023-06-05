@@ -2,4 +2,4 @@
 
 import sys
 
-print(sys.version)
+print(sys.version)  # 3.10.5
