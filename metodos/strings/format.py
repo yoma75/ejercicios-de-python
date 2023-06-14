@@ -19,6 +19,16 @@ texto = 'Tu porcentaje es del: {:.0%}'
 print(texto.format(0.89))  # Tu porcentaje es del: 89%
 
 
+# inserta 8 espacios en caracteres en blanco
+# ">" alinear a la derecha el valor
+txt = "Nosotros tenemos {:>8} gatos."
+print(txt.format(49))  # Nosotros tenemos       49 gatos.
 
 
+# inserta 8 espacios en caracteres en blanco
+# ">" alinear a la izquierda el valor
+txt = "Nosotros tenemos {:<8} gatos."
+print(txt.format(49))  # Nosotros tenemos 49      gatos.
 
+
+# https://www.w3schools.com/python/ref_string_format.asp
