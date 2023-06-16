@@ -7,4 +7,3 @@ def potencia(valor, elevado):
 potencia(5,3)  # 125: 5 * 5 * 5
 potencia(2,6)  # 64
 potencia(15,4)  # 50625
-

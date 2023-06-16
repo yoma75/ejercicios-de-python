@@ -9,4 +9,3 @@ print(f'ordenada descendentemente: {sorted(numbers, reverse=True)}')  # [85, 75,
 cats = ['silvestre', 'felix', 'cosmico', 'garfield']
 print(f'{sorted(cats)}')  # ['cosmico', 'felix', 'garfield', 'silvestre']
 print(f'{sorted(cats, reverse=True)}')  # ['silvestre', 'garfield', 'felix', 'cosmico']
-

@@ -2,3 +2,7 @@
 
 gatos = ['silvestre', 'felix', 'cosmico', 'garfield']
 print(f'{len(gatos)} elementos')  # 4 elementos
+
+
+# Cuando es un string devuelve el numero de caracteres
+print(len('Hola mundo!'))  # 11 
