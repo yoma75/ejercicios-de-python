@@ -1,0 +1,23 @@
+La comprensión de listas, también conocida como comprensión de listas o list comprehension en inglés, que permite crear nuevas listas mediante la aplicación de una expresión a cada elemento de una lista existente, o mediante la aplicación de una expresión a una secuencia.
+
+SINTAXIS:
+nueva_lista = [expresion for elemento in lista_existente]
+
+
+Esto se lee como "crear una nueva lista donde cada elemento es el resultado de aplicar la expresión a cada elemento en la lista existente".
+
+Ejemplo:
+Supongamos que tenemos una lista de números y queremos crear una nueva lista que contenga el cuadrado de cada número en la lista original:
+
+numeros = [1, 2, 3, 4, 5]
+cuadrados = [x**2 for x in numeros]
+
+print(cuadrados)  # [1, 4, 9, 16, 25]
+
+En este ejemplo, la expresión x**2 se aplica a cada elemento x en la lista numeros, y el resultado se agrega a la nueva lista cuadrados. Así, la comprensión de listas nos permite crear rápidamente una nueva lista basada en una lista existente, aplicando una operación o transformación a cada elemento.
+
+
+
+
+
+
