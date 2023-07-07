@@ -1,8 +1,8 @@
 # Crear una Subcadena de n Caracteres Replicada n Cantidad de Veces
 # árbol => ar captura los dos primeros caracteres y los multiplica las veces requeridas
 
-cadena=input('Introduzca cadena:')
-numero=int(input('Introduzca número de carácteres de la subcadena :'))
+cadena = input('Introduzca cadena:')
+numero = int(input('Introduzca número de carácteres de la subcadena :'))
 
-cadena2=cadena[:numero]*numero
+cadena2 = cadena[:numero] * numero
 print(cadena2)
