@@ -20,3 +20,7 @@ if nivel == "":
 else:
     print("Tu nivel de rendimiento es %s" % nivel)
     print("Te corresponde cobrar %.2f€" % (puntos * bonificacion))
+
+# %s y % se utilizan para formatear cadenas de texto. Es una forma de insertar valores variables dentro de una cadena formateada
+
+# %s se utiliza para indicar un marcador de posición en la cadena donde se insertará el valor de la variable nivel. El operador % se utiliza para combinar la cadena con la variable nivel. El valor de nivel se sustituirá en el marcador de posición %s.
