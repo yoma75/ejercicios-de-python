@@ -21,8 +21,14 @@ class Carro(Fabrica):
     print(f'Valor CARRO: {self.precio}')
     
 
-moto = Moto(2, 'Negro', 4000)
+moto = Moto(2, 'Negro', 4000)   # Llantas MOTO: 2
+                                # Color MOTO: Negro
+                                # Precio MOTO: 4000
 moto.datos()
 
-carro = Carro(4, 'Azul', 5000)
+
+
+carro = Carro(4, 'Azul', 5000)  # Llantas CARRO: 4
+                                # Color CARRO: Azul
+                                # Valor CARRO: 5000
 carro.datos()
