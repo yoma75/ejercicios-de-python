@@ -40,6 +40,11 @@ print(array_doble)  # [[ 1  2  3  4]
                     # [34 67 82 59]]
 
 
+# Usar una tupla para crear un array
+arr = np.array((1,5,7,8,9))
+print(f'Desde una tupla: {arr}')  # [1 5 7 8 9]
+
+
 # Shape: que forma tiene
 print(array_doble.shape)  # (2, 4), 2 filas y 4 columnas
 
