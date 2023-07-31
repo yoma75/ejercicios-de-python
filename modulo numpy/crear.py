@@ -37,7 +37,7 @@ print(lista_doble)  # ([1, 2, 3, 4], [34, 67, 82, 59])
 # Convertir la lista anterior en un array
 array_doble = np.array(lista_doble)
 print(array_doble)  # [[ 1  2  3  4]
-                    # [34 67 82 59]]
+                    #  [34 67 82 59]]
 
 
 # Usar una tupla para crear un array
