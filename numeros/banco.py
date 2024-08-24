@@ -3,7 +3,7 @@
 
 INTERESES = 0.04
 
-money = int(input('Enter the amount of money to deposit: '))
+money = int(input('Digite la cantidad de dinero a depositar: '))
 
 first_year = money * (1 + INTERESES)
 second_year = round(first_year * (1 + INTERESES))

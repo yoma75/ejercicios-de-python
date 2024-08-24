@@ -15,5 +15,5 @@ def separar(lista):
     return pares, impares
 
 pares, impares = separar(numeros)
-print('Los numeros pares son: {}'.format(pares))
-print('y los numeros impares son: {}'.format(impares))
+print('Los numeros pares son: {}'.format(pares))  # Los numeros pares son: [-12, 2, 20, 54, 84]
+print('y los numeros impares son: {}'.format(impares))  # y los numeros impares son: [-33, 1, 9, 13, 101, 123]

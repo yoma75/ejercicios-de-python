@@ -18,3 +18,30 @@ print(cadena.isupper())  # False
 
 # islower: verifica si la cadena esta toda en minuscula
 print(cadena.islower())  # False
+
+
+# La mayoria de los valores son verdaderos
+print(bool("abc"))  # True
+print(bool(123))  # True
+print(bool(["apple", "cherry", "banana"]))  # True
+
+
+# Algunos valores son falsos:
+print(bool(False))  # False
+print(bool(None))  # False
+print(bool(0))  # False
+print(bool(""))  # False
+print(bool(()))  # False
+print(bool([]))  # False
+print(bool({}))  # False
+
+
+# Se puede ejecutar código basado en la respuesta booleana de una función:
+# Imprima "YES!" si la función devuelve True, de lo contrario, imprima "¡NO!":
+def myFuncion():
+  return True
+
+if myFuncion():
+  print("Yes")  # Yes
+else:
+  print("No")

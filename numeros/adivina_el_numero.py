@@ -20,11 +20,11 @@ def adivina_el_numero(x):
     prediccion = int(input(f"Adivina un número entre 1 y {x}: "))
 
     if prediccion < numero_aleatorio:
-      print("Intenta otra vez, este número es muy pequeño")
+      print("Intenta otra vez, este número es muy pequeño\n")
     elif prediccion > numero_aleatorio:
-      print("Intenta otra vez, este número es muy grande")
+      print("Intenta otra vez, este número es muy grande\n")
 
-  print(f"!FELICITACIONES¡ Adivinaste el número {numero_aleatorio} correctamente.")
+  print(f"!FELICITACIONES¡ Adivinaste el número {numero_aleatorio} correctamente.\n")
 
 
 adivina_el_numero(10)
