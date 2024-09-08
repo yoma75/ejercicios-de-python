@@ -1,4 +1,4 @@
- # Escribe una función llamada en_rango que reciba tres parámetros: num, inferior, superior. La función debe retornar True si num es mayor o igual a inferior y menor a superior. De lo contrario debe retornar False.
+# Escribe una función llamada en_rango que reciba tres parámetros: num, inferior, superior. La función debe retornar True si num es mayor o igual a inferior y menor a superior. De lo contrario debe retornar False.
 
 # print(en_rango(5, 1, 10)) # True
 # print(en_rango(5, 6, 10)) # False
