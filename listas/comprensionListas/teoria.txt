@@ -1,5 +1,7 @@
 La comprensión de listas, también conocida como comprensión de listas o list comprehension en inglés, que permite crear nuevas listas mediante la aplicación de una expresión a cada elemento de una lista existente, o mediante la aplicación de una expresión a una secuencia.
 
+La comprensión de listas ofrece una sintaxis más corta cuando se desea crear una nueva lista basada en los valores de una lista existente.
+
 SINTAXIS:
 nueva_lista = [expresion for elemento in lista_existente]
 
