@@ -10,7 +10,7 @@ else:
   print('a y b no son iguales')  # a y b no son iguales
 
 
-# != significa "diferente de" o "no igual a". Se utiliza para comparar dos valores y devolver True si los valores son diferentes, o False 
+# != significa "diferente de" o "no es igual a". Se utiliza para comparar dos valores y devolver True si los valores son diferentes, o False 
 x = 5
 y = 3
 print(x != y)  # True

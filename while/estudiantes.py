@@ -10,7 +10,7 @@ while x < 10:
     opc = input('Escoja la opcion: ')
     estudiantes.append(opc)
     print()
-    x = x+1
+    x = x + 1
 
 for x in estudiantes:
     if x == 'hombre':
